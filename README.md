@@ -72,8 +72,7 @@ COMING SOON....
 
 ## OUTPUT SCREENSHOTS :
 - ### Home Screen Images (Before Login) -
-- ![Elements](<img src="https://github.com/0xfarben/offender-track/blob/main/screens/1p_1photo.png" />){: style="height:83px"}
--![Dandi](<img src="https://github.com/0xfarben/offender-track/blob/main/screens/1p_2photo.png" />){: style="height:83px"}
+![alt-text-1](https://github.com/0xfarben/offender-track/blob/main/screens/1p_1photo.png "title-1") ![alt-text-2](https://github.com/0xfarben/offender-track/blob/main/screens/1p_2photo.png "title-2")
 <img src="https://github.com/0xfarben/offender-track/blob/main/screens/1p_1photo.png" />
 <img src="https://github.com/0xfarben/offender-track/blob/main/screens/1p_2photo.png" />
 <img src="https://github.com/0xfarben/offender-track/blob/main/screens/1p_3photo.png" />
