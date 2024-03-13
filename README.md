@@ -72,7 +72,7 @@ COMING SOON....
 
 ## OUTPUT SCREENSHOTS :
 - ### Home Screen Images (Before Login) -
-<img src="https://github.com/0xfarben/offender-track/blob/main/screens/1p_1photo.png" width="600"/> 
+<img src="https://github.com/0xfarben/offender-track/blob/main/screens/1p_1photo.png" width="800"/> 
 
 - ### Home Screen Image (After Login) -
 #### Only after logging-in, a user can register a F.I.R.
