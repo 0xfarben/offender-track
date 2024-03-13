@@ -33,3 +33,30 @@ The objective of the crime reporting management system is to streamline the proc
 
 ### Version Control :
 - [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&link=https://github.com/0xfarben)](https://github.com/0xfarben)
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/0xfarben/offender-track/
+```
+
+Go to the project directory
+
+```bash
+  cd offender-track
+```
+
+Run the application
+
+```bash
+  npm start
+```
+
+
+## Demo Video
+
+COMING SOON....
+
+## Output Screen-Shots:
