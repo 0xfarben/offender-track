@@ -72,4 +72,4 @@ COMING SOON....
 
 ## OUTPUT SCREENSHOTS :
 Home Screen
-<img src="https://github.com/Kumar-laxmi/Criminal-Management-System/blob/main/screens/home.png" />
+<img src="https://github.com/0xfarben/offender-track/main/screens/1p_1photo.png" />
