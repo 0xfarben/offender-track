@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Crime Report Management Database Website</title>
+    <meta name="description" content=" | Hello! This is a Crime Report Database." />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/index.hbs" type="image/x-icon" href="favicon.ico" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="all"
+      href="https://livedemo00.template-help.com/wordpress_52469/wp-content/themes/theme52469/bootstrap/css/bootstrap.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="all"
+      href="https://livedemo00.template-help.com/wordpress_52469/wp-content/themes/theme52469/bootstrap/css/responsive.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="all"
+      href="https://livedemo00.template-help.com/wordpress_52469/wp-content/themes/CherryFramework/css/camera.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="all"
+      href="https://livedemo00.template-help.com/wordpress_52469/wp-content/themes/theme52469/style.css"
+    />
+    <link
+      rel="stylesheet"
+      id="flexslider-css"
+      href="https://livedemo00.template-help.com/wordpress_52469/wp-content/plugins/cherry-plugin/lib/js/FlexSlider/flexslider.css?ver=2.2.0"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="owl-carousel-css"
+      href="https://livedemo00.template-help.com/wordpress_52469/wp-content/plugins/cherry-plugin/lib/js/owl-carousel/owl.carousel.css?ver=1.24"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="owl-theme-css"
+      href="https://livedemo00.template-help.com/wordpress_52469/wp-content/plugins/cherry-plugin/lib/js/owl-carousel/owl.theme.css?ver=1.24"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="font-awesome-css"
+      href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css?ver=3.2.1"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="cherry-plugin-css"
+      href="https://livedemo00.template-help.com/wordpress_52469/wp-content/plugins/cherry-plugin/includes/css/cherry-plugin.css?ver=1.2"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="contact-form-7-css"
+      href="https://livedemo00.template-help.com/wordpress_52469/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=3.4"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="theme52469-css"
+      href="https://livedemo00.template-help.com/wordpress_52469/wp-content/themes/theme52469/main-style.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="magnific-popup-css"
+      href="https://livedemo00.template-help.com/wordpress_52469/wp-content/themes/CherryFramework/css/magnific-popup.css?ver=0.9.3"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="options_typography_Six+Caps-css"
+      href="//fonts.googleapis.com/css?family=Six+Caps&#038;subset=latin"
+      type="text/css"
+      media="all"
+    />
+    <script
+      type="text/javascript"
+      src="https://livedemo00.template-help.com/wordpress_52469/wp-content/themes/CherryFramework/js/jquery-1.7.2.min.js?ver=1.7.2"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://livedemo00.template-help.com/wordpress_52469/wp-content/themes/theme52469/js/search.js?ver=1.0"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://livedemo00.template-help.com/wordpress_52469/wp-content/themes/CherryFramework/js/jquery-migrate-1.2.1.min.js?ver=1.2.1"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://livedemo00.template-help.com/wordpress_52469/wp-includes/js/swfobject.js?ver=2.2-20120417"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://livedemo00.template-help.com/wordpress_52469/wp-content/themes/CherryFramework/js/modernizr.js?ver=2.0.6"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://livedemo00.template-help.com/wordpress_52469/wp-content/themes/CherryFramework/js/jflickrfeed.js?ver=1.0"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://livedemo00.template-help.com/wordpress_52469/wp-content/plugins/cherry-plugin/lib/js/jquery.easing.1.3.js?ver=1.3"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://livedemo00.template-help.com/wordpress_52469/wp-content/themes/CherryFramework/js/custom.js?ver=1.0"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://livedemo00.template-help.com/wordpress_52469/wp-content/themes/CherryFramework/bootstrap/js/bootstrap.min.js?ver=2.3.0"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://livedemo00.template-help.com/wordpress_52469/wp-content/plugins/cherry-plugin/lib/js/elasti-carousel/jquery.elastislide.js?ver=1.2"
+    ></script>
+    <link
+      rel="EditURI"
+      type="application/rsd+xml"
+      title="RSD"
+      href="https://livedemo00.template-help.com/wordpress_52469/xmlrpc.php?rsd"
+    />
+    <link
+      rel="wlwmanifest"
+      type="application/wlwmanifest+xml"
+      href="https://livedemo00.template-help.com/wordpress_52469/wp-includes/wlwmanifest.xml"
+    />
+    <meta name="generator" content="WordPress 4.0.24" />
+    <script>
+      var system_folder =
+          "https://livedemo00.template-help.com/wordpress_52469/wp-content/themes/CherryFramework/admin/data_management/",
+        CHILD_URL =
+          "https://livedemo00.template-help.com/wordpress_52469/wp-content/themes/theme52469",
+        PARENT_URL =
+          "https://livedemo00.template-help.com/wordpress_52469/wp-content/themes/CherryFramework",
+        CURRENT_THEME = "theme52469";
+    </script>
+
+    <style>
+      .clickable-div {
+        cursor: pointer;
+        /* Add other styling as needed */
+      }
+    </style>
+
+    <style type="text/css">
+      body {
+        background-image: url(https://livedemo00.template-help.com/wordpress_52469/wp-content/themes/theme52469/images/bg.jpg);
+        background-repeat: repeat;
+        background-position: top center;
+        background-attachment: scroll;
+      }
+    </style>
+    <style type="text/css">
+      h1 {
+        font: normal 30px/36px Roboto;
+        color: #434343;
+      }
+      h2 {
+        font: normal 26px/31px Roboto;
+        color: #434343;
+      }
+      h3 {
+        font: normal 24px/29px Roboto;
+        color: #434343;
+      }
+      h4 {
+        font: normal 22px/26px Roboto;
+        color: #434343;
+      }
+      h5 {
+        font: normal 20px/24px Roboto;
+        color: #434343;
+      }
+      h6 {
+        font: normal 18px/22px Roboto;
+        color: #434343;
+      }
+      body {
+        font-weight: normal;
+      }
+      .logo_h__txt,
+      .logo_link {
+        font: normal 40px/48px Six Caps;
+        color: #303130;
+      }
+      .sf-menu > li > a {
+        font: normal 17px/20px Roboto;
+        color: #848484;
+      }
+      .nav.footer-nav a {
+        font: normal 12px/24px Arial, Helvetica, sans-serif;
+        color: #bcbcbc;
+      }
+    </style>
+    <script
+      src="https://livedemo00.template-help.com/wordpress_52469/wp-content/themes/CherryFramework/js/jquery.mobile.customized.min.js"
+      type="text/javascript"
+    ></script>
+    <script type="text/javascript">
+      jQuery(function () {
+        jQuery(".sf-menu").mobileMenu({ defaultText: "Navigate to..." });
+      });
+    </script>
+    <!--<![endif]-->
+    <script type="text/javascript">
+      // Init navigation menu
+      jQuery(function () {
+        // main navigation init
+        jQuery("ul.sf-menu").superfish({
+          delay: 1000, // the delay in milliseconds that the mouse can remain outside a sub-menu without it closing
+          animation: {
+            opacity: "show",
+            height: "show",
+          }, // used to animate the sub-menu open
+          speed: "normal", // animation speed
+          autoArrows: false, // generation of arrow mark-up (for submenu)
+          disableHI: true, // to disable hoverIntent detection
+        });
+
+        //Zoom fix
+        //IPad/IPhone
+        var viewportmeta =
+            document.querySelector &&
+            document.querySelector('meta[name="viewport"]'),
+          ua = navigator.userAgent,
+          gestureStart = function () {
+            viewportmeta.content =
+              "width=device-width, minimum-scale=0.25, maximum-scale=1.6, initial-scale=1.0";
+          },
+          scaleFix = function () {
+            if (
+              viewportmeta &&
+              /iPhone|iPad/.test(ua) &&
+              !/Opera Mini/.test(ua)
+            ) {
+              viewportmeta.content =
+                "width=device-width, minimum-scale=1.0, maximum-scale=1.0";
+              document.addEventListener("gesturestart", gestureStart, false);
+            }
+          };
+        scaleFix();
+      });
+    </script>
+    <!-- stick up menu -->
+    <script type="text/javascript">
+      jQuery(document).ready(function () {
+        if (!device.mobile() && !device.tablet()) {
+          jQuery("header .nav-wrap").tmStickUp({
+            correctionSelector: jQuery("#wpadminbar"),
+            active: false,
+          });
+        }
+      });
+    </script>
+  </head>
+
+  <body class="home page page-id-203 page-template page-template-page-home-php">
+    <div id="motopress-main" class="main-holder">
+      <!--Begin #motopress-main-->
+      <header class="motopress-wrapper header">
+        <div class="container">
+          <div class="row">
+            <div
+              class="span12"
+              data-motopress-wrapper-file="wrapper/wrapper-header.php"
+              data-motopress-wrapper-type="header"
+              data-motopress-id="65b68148ee207"
+            >
+              
+              <div class="nav-wrap">
+                <div class="row">
+                  <div
+                    class="span3"
+                    data-motopress-type="d-md-flex"
+                    data-motopress-static-file="static/static-logo.php"
+                    
+                  >
+                    <!-- BEGIN LOGO -->
+                    
+                    <div class="logo pull-left">
+                      <a
+                        href="/"
+                        class="logo_h logo_h__img"
+                        ><img
+                          src="https://iili.io/JGHWDbf.png"
+                          alt="Police Department"
+                          title="Hello! This is a Theme for the Police Department."
+                      /></a>
+                    </div>
+
+                    <!-- END LOGO -->
+                  </div>
+
+                  <div
+                    class="span8"
+                    data-motopress-type="static"
+                    data-motopress-static-file="static/static-nav.php"
+                  >
+                    <!-- BEGIN MAIN NAVIGATION -->
+                    <nav class="nav nav__primary clearfix">
+                      <ul id="topnav" class="sf-menu">
+                       
+                        {{#if statusMessage}}
+                           
+                                        <li
+                                  id="menu-item-1935"
+                                  class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-203 current_page_item"
+                                >
+                                  <a href="data"><b>CRIME RECORDS</b></a>
+                                </li>
+                                        <li
+                                  id="menu-item-1935"
+                                  class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-203 current_page_item"
+                                >
+                                  <a href="crime"><b>REGISTER - F.I.R</b></a>
+                                </li>
+                                <li
+                                  id="menu-item-1934"
+                                  class="menu-item menu-item-type-post_type menu-item-object-page"
+                                >
+                                  <a
+                                    href="logout"
+                                    ><b><strong>LOGOUT</strong></b></a
+                                  >
+                                </li>
+                        {{else}}
+                                  <li
+                                  id="menu-item-1935"
+                                  class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-203 current_page_item"
+                                >
+                                  <a href="data"><b>CRIME RECORDS</b></a>
+                                </li>
+                                  <li
+                                  id="menu-item-1932"
+                                  class="menu-item menu-item-type-post_type menu-item-object-page" >
+                                  <a href="login"
+                                    ><b><strong>SIGN IN/ SIGN UP</strong></b></a
+                                  >
+                                  
+                                </li>
+                        {{/if}}
+                        
+                      </ul>
+                    </nav>
+                    <!-- END MAIN NAVIGATION -->
+                  </div>
+                </div>
+              </div>
+              
+              <div class="row">
+                <div
+                  class="span6"
+                  data-motopress-type="static"
+                  data-motopress-static-file="static/static-tagline.php"
+                >
+                  <p class="logo_tagline">Hello! This is a Crime Reporting Database Management System</p>
+                </div>
+                <div
+                  class="span6 social-nets-wrapper"
+                  data-motopress-type="static"
+                  data-motopress-static-file="static/static-social-networks.php"
+                >
+                  <ul class="social">
+                    <li>
+                      <a href="#" title="facebook"
+                        ><img
+                          src="https://livedemo00.template-help.com/wordpress_52469/wp-content/themes/theme52469/images/icons/facebook.png"
+                          alt="facebook"
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="#" title="twitter"
+                        ><img
+                          src="https://livedemo00.template-help.com/wordpress_52469/wp-content/themes/theme52469/images/icons/twitter.png"
+                          alt="twitter"
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="#" title="feed"
+                        ><img
+                          src="https://livedemo00.template-help.com/wordpress_52469/wp-content/themes/theme52469/images/icons/feed.png"
+                          alt="feed"
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="#" title="pinterest"
+                        ><img
+                          src="https://livedemo00.template-help.com/wordpress_52469/wp-content/themes/theme52469/images/icons/pinterest.png"
+                          alt="pinterest"
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="#" title="google"
+                        ><img
+                          src="https://livedemo00.template-help.com/wordpress_52469/wp-content/themes/theme52469/images/icons/google.png"
+                          alt="google"
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="#" title="linkedin"
+                        ><img
+                          src="https://livedemo00.template-help.com/wordpress_52469/wp-content/themes/theme52469/images/icons/linkedin.png"
+                          alt="linkedin"
+                      /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="motopress-wrapper slider-wrap clearfix">
+        <div class="container">
+          <div class="row">
+            <div
+              class="span12"
+              data-motopress-type="static"
+              data-motopress-static-file="static/static-slider.php"
+            >
+              <div id="slider-wrapper" class="slider">
+                <div class="container">
+                  <script type="text/javascript">
+                    //    jQuery(window).load(function() {
+                    jQuery(function () {
+                      var myCamera = jQuery("#camera65b6814906dd1");
+                      if (!myCamera.hasClass("motopress-camera")) {
+                        myCamera.addClass("motopress-camera");
+                        myCamera.camera({
+                          alignment: "topCenter", //topLeft, topCenter, topRight, centerLeft, center, centerRight, bottomLeft, bottomCenter, bottomRight
+                          autoAdvance: true, //true, false
+                          mobileAutoAdvance: true, //true, false. Auto-advancing for mobile devices
+                          barDirection: "leftToRight", //'leftToRight', 'rightToLeft', 'topToBottom', 'bottomToTop'
+                          barPosition: "top", //'bottom', 'left', 'top', 'right'
+                          cols: 12,
+                          easing: "easeOutQuad", //for the complete list https://jqueryui.com/demos/effect/easing.html
+                          mobileEasing: "", //leave empty if you want to display the same easing on mobile devices and on desktop etc.
+                          fx: "simpleFade", //'random','simpleFade', 'curtainTopLeft', 'curtainTopRight', 'curtainBottomLeft',          'curtainBottomRight', 'curtainSliceLeft', 'curtainSliceRight', 'blindCurtainTopLeft', 'blindCurtainTopRight', 'blindCurtainBottomLeft', 'blindCurtainBottomRight', 'blindCurtainSliceBottom', 'blindCurtainSliceTop', 'stampede', 'mosaic', 'mosaicReverse', 'mosaicRandom', 'mosaicSpiral', 'mosaicSpiralReverse', 'topLeftBottomRight', 'bottomRightTopLeft', 'bottomLeftTopRight', 'bottomLeftTopRight'
+                          //you can also use more than one effect, just separate them with commas: 'simpleFade, scrollRight, scrollBottom'
+                          mobileFx: "", //leave empty if you want to display the same effect on mobile devices and on desktop etc.
+                          gridDifference: 250, //to make the grid blocks slower than the slices, this value must be smaller than transPeriod
+                          height: "26.78%", //here you can type pixels (for instance '300px'), a percentage (relative to the width of the slideshow, for instance '50%') or 'auto'
+                          imagePath: "images/", //he path to the image folder (it serves for the blank.gif, when you want to display videos)
+                          loader: "no", //pie, bar, none (even if you choose "pie", old browsers like IE8- can't display it... they will display always a loading bar)
+                          loaderColor: "#ffffff",
+                          loaderBgColor: "#eb8a7c",
+                          loaderOpacity: 1, //0, .1, .2, .3, .4, .5, .6, .7, .8, .9, 1
+                          loaderPadding: 0, //how many empty pixels you want to display between the loader and its background
+                          loaderStroke: 3, //the thickness both of the pie loader and of the bar loader. Remember: for the pie, the loader thickness must be less than a half of the pie diameter
+                          minHeight: "86px", //you can also leave it blank
+                          navigation: false, //true or false, to display or not the navigation buttons
+                          navigationHover: false, //if true the navigation button (prev, next and play/stop buttons) will be visible on hover state only, if false they will be visible always
+                          pagination: true,
+                          playPause: false, //true or false, to display or not the play/pause buttons
+                          pieDiameter: 33,
+                          piePosition: "rightTop", //'rightTop', 'leftTop', 'leftBottom', 'rightBottom'
+                          portrait: true, //true, false. Select true if you don't want that your images are cropped
+                          rows: 8,
+                          slicedCols: 12,
+                          slicedRows: 8,
+                          thumbnails: false,
+                          time: 7000, //milliseconds between the end of the sliding effect and the start of the next one
+                          transPeriod: 1500, //lenght of the sliding effect in milliseconds
+
+                          ////////callbacks
+
+                          onEndTransition: function () {}, //this callback is invoked when the transition effect ends
+                          onLoaded: function () {}, //this callback is invoked when the image on a slide has completely loaded
+                          onStartLoading: function () {}, //this callback is invoked when the image on a slide start loading
+                          onStartTransition: function () {}, //this callback is invoked when the transition effect starts
+                        });
+                      }
+                    });
+                    //    });
+                  </script>
+
+                  <div id="camera65b6814906dd1" class="camera_wrap camera">
+                    <div
+                      data-src="https://livedemo00.template-help.com/wordpress_52469/wp-content/uploads/2014/06/slider-1.jpg"
+                      data-thumb="https://livedemo00.template-help.com/wordpress_52469/wp-content/uploads/2014/06/slider-1-100x50.jpg"
+                    >
+                      <div class="camera_caption fadeFromBottom">
+                        <h2>We aim to</h2>
+                        <h3>
+                          improve the quality of life <br />
+                          in the city!
+                        </h3>
+                      </div>
+                    </div>
+                    <div
+                      data-src="https://livedemo00.template-help.com/wordpress_52469/wp-content/uploads/2014/06/slider-2.jpg"
+                      data-thumb="https://livedemo00.template-help.com/wordpress_52469/wp-content/uploads/2014/06/slider-2-100x50.jpg"
+                    >
+                      <div class="camera_caption fadeFromBottom">
+                        <h2>Get the latest</h2>
+                        <h3>
+                          crime prevention tips and<br />
+                          advice!
+                        </h3>
+                      </div>
+                    </div>
+                    <div
+                      data-src="https://livedemo00.template-help.com/wordpress_52469/wp-content/uploads/2014/06/slider-3.jpg"
+                      data-thumb="https://livedemo00.template-help.com/wordpress_52469/wp-content/uploads/2014/06/slider-3-100x50.jpg"
+                    >
+                      <div class="camera_caption fadeFromBottom">
+                        <h2>Preserving</h2>
+                        <h3>
+                          the peace of every<br />
+                          citizen!
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- .slider -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="motopress-wrapper content-holder clearfix">
+        <div class="container">
+          <div class="row">
+            <div
+              class="span12"
+              data-motopress-wrapper-file="page-home.php"
+              data-motopress-wrapper-type="content"
+            >
+              <div class="row">
+                <div
+                  class="span12"
+                  data-motopress-type="loop"
+                  data-motopress-loop-file="loop/loop-page.php"
+                >
+                  <div
+                    id="post-203"
+                    class="post-203 page type-page status-publish has-post-thumbnail hentry"
+                  >
+                    <div class="row">
+                      <div class="span4">
+                        <div class="service-box service-home-main">
+                          <figure class="icon">
+                            <img
+                              src="https://livedemo00.template-help.com/wordpress_52469/wp-content/themes/theme52469/images/icon1.png"
+                              alt=""
+                            />
+                          </figure>
+                          <div
+                            class="service-box_body clickable-div"
+                            {{!-- onclick="location.href='/data'" --}}
+                          >
+                            <h2 class="title">Safety &#038; Security</h2>
+                            <div class="service-box_txt">
+                              Safety and security are paramount concerns in today's world
+                              
+                            </div>
+                          </div>
+                        </div>
+                        <!-- /Service Box -->
+                      </div>
+                      <div class="span4">
+                        <div class="service-box service-home-main">
+                          <figure class="icon">
+                            <img
+                              src="https://livedemo00.template-help.com/wordpress_52469/wp-content/themes/theme52469/images/icon2.png"
+                              alt=""
+                            />
+                          </figure>
+                          <div
+                            class="service-box_body clickable-div"
+                            onclick="location.href='data'"
+                          >
+                            <h2 class="title">Crime Statistics</h2>
+                            <div class="service-box_txt">
+                              Click this box <br>
+                              to  
+                              access a diverse array of crime reports
+
+                            </div>
+                          </div>
+                        </div>
+                        <!-- /Service Box -->
+                      </div>
+
+                      <div class="span4">
+                        <div class="service-box service-home-main">
+                          <figure class="icon">
+                            <img
+                              src="https://livedemo00.template-help.com/wordpress_52469/wp-content/themes/theme52469/images/icon3.png"
+                              alt=""
+                            />
+                          </figure>
+                          <div
+                            class="service-box_body clickable-div"
+                            {{!-- onclick="location.href=''" --}}
+                          >
+                            <h2 class="title">Police Patrol</h2>
+                            <div class="service-box_txt">
+                              police patrol units play a crucial role in ensuring the safety and security of our community.
+                            </div>
+                          </div>
+                        </div>
+                        <!-- /Service Box -->
+                      </div>
+                    </div>
+                    <!-- .row (end) -->
+
+                    <!-- .row (end) -->
+                    <div class="clear"></div>
+                    <!--.pagination-->
+                  </div>
+                  <!--#post-->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="motopress-wrapper footer">
+        <div class="container">
+          <div class="row">
+            <div
+              class="span12"
+              data-motopress-wrapper-file="wrapper/wrapper-footer.php"
+              data-motopress-wrapper-type="footer"
+              data-motopress-id="65b68149a5d8d"
+            >
+              
+              <div class="row copyright">
+                <div
+                  class="span6"
+                  data-motopress-type="static"
+                  data-motopress-static-file="static/static-footer-text.php"
+                >
+                
+                  <div id="footer-text" class="footer-text">
+                    <span class="year">&copy; 2024</span>
+                    <a
+                      href="/"
+                      title="Hello! This is a Theme for the Police Department."
+                      class="site-name"
+                      >OFFENDER TRACK</a
+                    >.
+                    <span
+                      >All Rights Reserved <em>|</em>
+                      <a
+                        {{!-- href="/" --}}
+                        title="Privacy Policy"
+                        class="privacy"
+                        >Privacy Policy</a
+                      ></span
+                    >
+                   
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--End #motopress-main-->
+    </div>
+
+    <div id="back-top-wrapper" class="visible-desktop">
+      <p id="back-top">
+        <a href="#top"><span></span></a>
+      </p>
+    </div>
+    <script
+      type="text/javascript"
+      src="https://livedemo00.template-help.com/wordpress_52469/wp-includes/js/comment-reply.min.js?ver=4.0.24"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://livedemo00.template-help.com/wordpress_52469/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.32.0-2013.04.03"
+    ></script>
+    <script type="text/javascript">
+      /* <![CDATA[ */
+      var _wpcf7 = {
+        loaderUrl:
+          "https:\/\/livedemo00.template-help.com\/wordpress_52469\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif",
+        sending: "Sending ...",
+      };
+      /* ]]> */
+    </script>
+    <script
+      type="text/javascript"
+      src="https://livedemo00.template-help.com/wordpress_52469/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=3.4"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://livedemo00.template-help.com/wordpress_52469/wp-content/themes/CherryFramework/js/superfish.js?ver=1.5.3"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://livedemo00.template-help.com/wordpress_52469/wp-content/themes/CherryFramework/js/jquery.mobilemenu.js?ver=1.0"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://livedemo00.template-help.com/wordpress_52469/wp-content/themes/CherryFramework/js/jquery.magnific-popup.min.js?ver=0.9.3"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://livedemo00.template-help.com/wordpress_52469/wp-content/plugins/cherry-plugin/lib/js/FlexSlider/jquery.flexslider-min.js?ver=2.2.2"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://livedemo00.template-help.com/wordpress_52469/wp-content/themes/CherryFramework/js/jplayer.playlist.min.js?ver=2.3.0"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://livedemo00.template-help.com/wordpress_52469/wp-content/themes/CherryFramework/js/jquery.jplayer.min.js?ver=2.6.0"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://livedemo00.template-help.com/wordpress_52469/wp-content/themes/CherryFramework/js/tmstickup.js?ver=1.0.0"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://livedemo00.template-help.com/wordpress_52469/wp-content/themes/CherryFramework/js/device.min.js?ver=1.0.0"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://livedemo00.template-help.com/wordpress_52469/wp-content/themes/CherryFramework/js/jquery.zaccordion.min.js?ver=2.1.0"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://livedemo00.template-help.com/wordpress_52469/wp-content/themes/CherryFramework/js/camera.min.js?ver=1.3.4"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://livedemo00.template-help.com/wordpress_52469/wp-content/themes/CherryFramework/js/jquery.debouncedresize.js?ver=1.0"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://livedemo00.template-help.com/wordpress_52469/wp-content/themes/CherryFramework/js/jquery.ba-resize.min.js?ver=1.1"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://livedemo00.template-help.com/wordpress_52469/wp-content/themes/CherryFramework/js/jquery.isotope.js?ver=1.5.25"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://livedemo00.template-help.com/wordpress_52469/wp-content/plugins/cherry-plugin/includes/js/cherry-plugin.js?ver=1.2"
+    ></script>
+    <!-- this is used by many Wordpress features and for plugins to work properly -->
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(["_setAccount", "UA-7078796-5"]);
+      _gaq.push(["_trackPageview"]);
+      (function () {
+        var ga = document.createElement("script");
+        ga.type = "text/javascript";
+        ga.async = true;
+        ga.src =
+          ("https:" == document.location.protocol
+            ? "https://ssl"
+            : "https://www") + ".google-analytics.com/ga.js";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+    <!-- Google Tag Manager --><noscript
+      ><iframe
+        src="//www.googletagmanager.com/ns.html?id=GTM-P9FT69"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "//www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-P9FT69");
+    </script>
+    <!-- End Google Tag Manager -->
+  </body>
+</html>
