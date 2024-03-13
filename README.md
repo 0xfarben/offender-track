@@ -40,6 +40,7 @@ The objective of the crime reporting management system is to streamline the proc
 ## RUN LOCALLY :
 
 ### Node must be installed on your local machine to run locally. Install it from : <a href="https://nodejs.org/" >NODE JS</a>
+### After installing Node follow below steps.
 Clone the project
 
 ```bash
