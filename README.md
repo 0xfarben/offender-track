@@ -73,13 +73,14 @@ COMING SOON....
 ## OUTPUT SCREENSHOTS :
 - ### Home Screen Images (Before Login) -
 <img src="https://github.com/0xfarben/offender-track/blob/main/screens/1p_1photo.png" width="1000"/> 
+<img src="https://github.com/0xfarben/offender-track/blob/main/screens/1p_2photo.png" width="425"/> 
+<img src="https://github.com/0xfarben/offender-track/blob/main/screens/1p_3photo.png" width="425"/> 
 
 - ### Home Screen Image (After Login) - 
 <img src="https://github.com/0xfarben/offender-track/blob/main/screens/after_login.png" width="1000" />
 
 - ### Login && Register Page -
 <img src="https://github.com/0xfarben/offender-track/blob/main/screens/login.png" width="425"/> <img src="[image2.png](https://github.com/0xfarben/offender-track/blob/main/screens/signup.png)" width="425"/> 
-<img src="https://github.com/0xfarben/offender-track/blob/main/screens/login.png"  width="500" />
-<img src="https://github.com/0xfarben/offender-track/blob/main/screens/signup.png"  width="500" />
+
 
 
