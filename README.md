@@ -9,8 +9,11 @@ The Crime Reporting Management System (CRMS) is designed to streamline the repor
 ## OBJECTIVES
 The objective of the crime reporting management system is to streamline the process of reporting incidents while enhancing efficiency and accuracy. By providing a user-friendly interface accessible to both law enforcement personnel and the general public, the system aims to improve accessibility and ensure timely recording of crimes.
 
-## ER - DIAGRAM
+## SCHEMA - DIAGRAM
 <a href="https://freeimage.host/"><img src="https://iili.io/JWWPEZJ.jpg" alt="JWWPEZJ.jpg" border="0"></a>
+
+## ER - DIAGRAM
+<a href="https://freeimage.host/"><img src="https://iili.io/JWXdR6P.png" alt="JWXdR6P.png" border="0"></a>
 
 ## TECHNOLOGY USED
 
