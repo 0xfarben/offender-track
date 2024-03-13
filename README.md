@@ -72,7 +72,7 @@ COMING SOON....
 
 ## OUTPUT SCREENSHOTS :
 - ### Home Screen Images (Before Login) -
-<img src="https://github.com/0xfarben/offender-track/blob/main/screens/1p_1photo.png"/> 
+<img src="https://github.com/0xfarben/offender-track/blob/main/screens/1p_1photo.png" width="1000"/> 
 <img src="https://github.com/0xfarben/offender-track/blob/main/screens/1p_2photo.png" width="500"/>  <img src="https://github.com/0xfarben/offender-track/blob/main/screens/1p_3photo.png" width="500"/>
 
 - ### Home Screen Image (After Login) - 
