@@ -95,5 +95,10 @@ COMING SOON....
 #### Displays the Crime record of specified FIR number.
 <img src="https://github.com/0xfarben/offender-track/blob/main/screens/search_fir.png" width="1000"/>
 
+- ### CRUD operations -
+#### Only admin can perform these actions/ operations.
+<img src="https://github.com/0xfarben/offender-track/blob/main/screens/crud.png" width="1000"/>
+<img src="https://github.com/0xfarben/offender-track/blob/main/screens/crud_edit.png" width="1000"/>
+
 
 
