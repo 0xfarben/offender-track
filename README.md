@@ -71,7 +71,14 @@ Run the application
 COMING SOON....
 
 ## OUTPUT SCREENSHOTS :
-- ### Home Screen Images
+- ### Home Screen Images (Before Login) -
 <img src="https://github.com/0xfarben/offender-track/blob/main/screens/1p_1photo.png" />
 <img src="https://github.com/0xfarben/offender-track/blob/main/screens/1p_2photo.png" />
 <img src="https://github.com/0xfarben/offender-track/blob/main/screens/1p_3photo.png" />
+
+- ### Home Screen Image (After Login) - 
+<img src="https://github.com/0xfarben/offender-track/blob/main/screens/after_login.png" />
+
+- ### Login && Register Page -
+<img src="https://github.com/0xfarben/offender-track/blob/main/screens/login.png" />
+<img src="https://github.com/0xfarben/offender-track/blob/main/screens/register.png" />
