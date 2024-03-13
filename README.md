@@ -102,7 +102,7 @@ COMING SOON....
 - ### CRUD operations -
 #### Only admin can perform these actions/ operations.
 <img src="https://github.com/0xfarben/offender-track/blob/main/screens/crud.png" width="1000"/>
-#### EDIT operation.
+#### CRUD-EDIT operation. 
 <img src="https://github.com/0xfarben/offender-track/blob/main/screens/crud_edit.png" width="1000"/>
 
 
