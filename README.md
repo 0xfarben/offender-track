@@ -34,7 +34,7 @@ The objective of the crime reporting management system is to streamline the proc
 ### Version Control :
 - [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&link=https://github.com/0xfarben)](https://github.com/0xfarben)
 
-## Run Locally
+## RUN LOCALLY
 
 Clone the project
 
@@ -55,8 +55,8 @@ Run the application
 ```
 
 
-## Demo Video
+## DEMO VIDEO
 
 COMING SOON....
 
-## Output Screen-Shots:
+## OUTPUT SCREENSHOTS:
