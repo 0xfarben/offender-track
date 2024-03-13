@@ -1,5 +1,6 @@
 <h1 align="center">Crime Report Management System (Offender-Track)</h1>
-![LOGO](https://iili.io/JGHWDbf.png)
+<a ><img src="https://iili.io/JGHWDbf.png" alt="LOGO"/></a>
+
 ABSTRACT
 The Crime Reporting Management System (CRMS) is designed to streamline
 the reporting, tracking, and management of criminal incidents. It offers a centralized
