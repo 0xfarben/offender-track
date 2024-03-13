@@ -80,7 +80,7 @@ COMING SOON....
 <img src="https://github.com/0xfarben/offender-track/blob/main/screens/after_login.png" width="1000" />
 
 - ### Login && Register Page -
-<img src="https://github.com/0xfarben/offender-track/blob/main/screens/login.png" width="425"/> <img src="[image2.png](https://github.com/0xfarben/offender-track/blob/main/screens/signup.png)" width="425"/> 
+<img src="https://github.com/0xfarben/offender-track/blob/main/screens/login.png" width="425"/> <img src="https://github.com/0xfarben/offender-track/blob/main/screens/signup.png" width="425"/> 
 
 
 
