@@ -91,5 +91,9 @@ COMING SOON....
 #### This page contains all the FIRs registered.
 <img src="https://github.com/0xfarben/offender-track/blob/main/screens/crime_records.png" width="1000"/>
 
+- ### Search by FIR number -
+#### Displays the Crime record of specified FIR number.
+<img src="https://github.com/0xfarben/offender-track/blob/main/screens/search_fir.png" width="1000"/>
+
 
 
