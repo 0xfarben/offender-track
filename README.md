@@ -53,7 +53,7 @@ Go to the project directory
   cd offender-track
 ```
 
-Go to the project directory
+On the project directory
 
 ```bash
   npm install PACKAGE
@@ -72,7 +72,7 @@ COMING SOON....
 
 ## OUTPUT SCREENSHOTS :
 - ### Home Screen Images (Before Login) -
-<img src="https://github.com/0xfarben/offender-track/blob/main/screens/1p_1photo.png" width="1000"/> 
+<img src="https://github.com/0xfarben/offender-track/blob/main/screens/1p_1photo.png" width="600"/> 
 
 - ### Home Screen Image (After Login) -
 #### Only after logging-in, a user can register a F.I.R.
