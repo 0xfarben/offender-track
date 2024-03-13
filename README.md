@@ -71,5 +71,5 @@ Run the application
 COMING SOON....
 
 ## OUTPUT SCREENSHOTS :
-Home Screen
+- ### Home Screen
 <img src="https://github.com/0xfarben/offender-track/blob/main/screens/1p_1photo.png" />
