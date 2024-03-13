@@ -80,5 +80,8 @@ COMING SOON....
 - ### Login && Register Page -
 <img src="https://github.com/0xfarben/offender-track/blob/main/screens/login.png" width="1000"/> <img src="https://github.com/0xfarben/offender-track/blob/main/screens/signup.png" width="1000"/> 
 
+- ### F.I.R Registration -
+<img src="https://github.com/0xfarben/offender-track/blob/main/screens/fir1.png" width="1000"/>
+ <img src="https://github.com/0xfarben/offender-track/blob/main/screens/fir2.png" width="425"/>  <img src="https://github.com/0xfarben/offender-track/blob/main/screens/fir3.png" width="425"/> 
 
 
