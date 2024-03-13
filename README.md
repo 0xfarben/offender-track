@@ -39,6 +39,7 @@ The objective of the crime reporting management system is to streamline the proc
 
 ## RUN LOCALLY :
 
+### Node must be installed on your local machine to run locally. Install it by : <a href="https://nodejs.org/" >NODE JS</a>
 Clone the project
 
 ```bash
@@ -49,6 +50,12 @@ Go to the project directory
 
 ```bash
   cd offender-track
+```
+
+Go to the project directory
+
+```bash
+  npm install PACKAGE
 ```
 
 Run the application
