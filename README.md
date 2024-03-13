@@ -88,7 +88,7 @@ COMING SOON....
  <img src="https://github.com/0xfarben/offender-track/blob/main/screens/fir3.png" width="1000"/>
 
 - ### F.I.R ID -
-#### This page contains all the FIRs registered.
+#### ID is provided only after successful submission of the FIR form.
 <img src="https://github.com/0xfarben/offender-track/blob/main/screens/successful_fir.png" width="1000"/>
 
 - ### Crime Records Display -
