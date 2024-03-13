@@ -75,29 +75,34 @@ COMING SOON....
 <img src="https://github.com/0xfarben/offender-track/blob/main/screens/1p_1photo.png" width="1000"/> 
 
 - ### Home Screen Image (After Login) -
-#### Only after logging-in, a user can register a F.I.R
+#### Only after logging-in, a user can register a F.I.R.
 <img src="https://github.com/0xfarben/offender-track/blob/main/screens/after_login.png" width="1000" />
 
 - ### Login && Register Page -
 <img src="https://github.com/0xfarben/offender-track/blob/main/screens/login.png" width="1000"/> <img src="https://github.com/0xfarben/offender-track/blob/main/screens/signup.png" width="1000"/> 
 
 - ### F.I.R Registration -
-#### The Logged user should fill all the necessary details in this form 
+#### The Logged user should fill all the necessary details in this form.
 <img src="https://github.com/0xfarben/offender-track/blob/main/screens/fir1.png" width="1000"/>
  <img src="https://github.com/0xfarben/offender-track/blob/main/screens/fir2.png" width="1000"/>  
  <img src="https://github.com/0xfarben/offender-track/blob/main/screens/fir3.png" width="1000"/>
+
+- ### F.I.R ID -
+#### This page contains all the FIRs registered.
+<img src="https://github.com/0xfarben/offender-track/blob/main/screens/successful_fir.png" width="1000"/>
 
 - ### Crime Records Display -
 #### This page contains all the FIRs registered.
 <img src="https://github.com/0xfarben/offender-track/blob/main/screens/crime_records.png" width="1000"/>
 
-- ### Search by FIR number -
-#### Displays the Crime record of specified FIR number.
+- ### Search by FIR ID -
+#### Displays the Crime record of specified FIR ID.
 <img src="https://github.com/0xfarben/offender-track/blob/main/screens/search_fir.png" width="1000"/>
 
 - ### CRUD operations -
 #### Only admin can perform these actions/ operations.
 <img src="https://github.com/0xfarben/offender-track/blob/main/screens/crud.png" width="1000"/>
+#### EDIT operation.
 <img src="https://github.com/0xfarben/offender-track/blob/main/screens/crud_edit.png" width="1000"/>
 
 
