@@ -44,7 +44,7 @@ The objective of the crime reporting management system is to streamline the proc
 Clone the project
 
 ```bash
-  git clone https://github.com/0xfarben/offender-track/
+  git clone https://github.com/0xfarben/offender-track
 ```
 
 Go to the project directory
