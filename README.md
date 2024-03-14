@@ -68,9 +68,9 @@ Run the application
 
 ## DEMO VIDEO
 
-COMING SOON....
+<i>COMING SOON....</i>
 
-## OUTPUT SCREENSHOTS :
+## OUTPUT SNAPSHOTS :
 - ### Home Screen Images (Before Login) -
 <img src="https://github.com/0xfarben/offender-track/blob/main/screens/1p_1photo.png" width="800"/> 
 
