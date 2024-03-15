@@ -32,10 +32,10 @@ The objective of the crime reporting management system is to streamline the proc
 - ![Nodejs](https://img.shields.io/badge/-Nodejs-black?style=flat&logo=Node.js&link=https://github.com/0xfarben)
 
 ### Database :
-- [![MySQL](https://img.shields.io/badge/-MySQL-black?style=flat&logo=mysql&link=https://github.com/0xfarben)]
+- ![MySQL](https://img.shields.io/badge/-MySQL-black?style=flat&logo=mysql&link=https://github.com/0xfarben)
 
 ### Version Control :
-- [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&link=https://github.com/0xfarben)]
+- ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&link=https://github.com/0xfarben)
 
 ## RUN LOCALLY :
 
