@@ -29,7 +29,7 @@ The objective of the crime reporting management system is to streamline the proc
 
 - ![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat&logo=javascript)
 
-- ![Nodejs](https://img.shields.io/badge/-Nodejs-black?style=flat&logo=Node.js&link=https://github.com/0xfarben)
+- ![Nodejs](https://img.shields.io/badge/-Nodejs-black?style=flat&logo=Node.js)
 
 ### Database :
 - ![MySQL](https://img.shields.io/badge/-MySQL-black?style=flat&logo=mysql)
