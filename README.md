@@ -56,7 +56,7 @@ Go to the project directory
 On the project directory
 
 ```bash
-  npm install package.json nodemon mysql2
+  npm install package.json
 ```
 
 Run the application
