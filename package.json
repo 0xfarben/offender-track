@@ -23,6 +23,8 @@
     "html": "^1.0.0",
     "jsonwebtoken": "^9.0.2",
     "just-handlebars-helpers": "^1.0.19",
+    "mysql2": "^3.9.2",
+    "nodemon": "^3.1.0",
     "routes": "^2.1.0"
   }
 }
