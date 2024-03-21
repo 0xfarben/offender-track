@@ -48,23 +48,23 @@ app.use('/', require('./routes/pages'));
 app.use('/auth', require('./routes/auth'));
 
 
-app.use('/upload', express.static('upload'));
+// app.use('/upload', express.static('upload'));
 
-app.post('crime', (req, res) => {
-  console.log("Entered IMAGE UPLOADER")
-  let sampleFile;
-  let uploadPath;
+// app.post('crime', (req, res) => {
+//   console.log("Entered IMAGE UPLOADER")
+//   let sampleFile;
+//   let uploadPath;
 
-  if (!req.files || Object.keys(req.files).length === 0) {
-    return res.status(400).send('No files were uploaded.');
-  }
+//   if (!req.files || Object.keys(req.files).length === 0) {
+//     return res.status(400).send('No files were uploaded.');
+//   }
 
-  // name of the input is sampleFile
-  sampleFile = req.files.sampleFile;
-  uploadPath = __dirname + '/upload/' + sampleFile.name;
+//   // name of the input is sampleFile
+//   sampleFile = req.files.sampleFile;
+//   uploadPath = __dirname + '/upload/' + sampleFile.name;
 
-  console.log(sampleFile);
-});
+//   console.log(sampleFile);
+// });
 
 
 // Start the server
