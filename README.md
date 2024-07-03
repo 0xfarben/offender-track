@@ -68,6 +68,7 @@ Run the application
 
 ## DEMO VIDEO
 
+<a href="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7176584763363778560">Video Link</a>
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7176584763363778560" height="1128" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
 ## OUTPUT SNAPSHOTS :
