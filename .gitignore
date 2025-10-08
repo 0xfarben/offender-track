@@ -1,0 +1,53 @@
+# Node dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage and build outputs
+coverage/
+.nyc_output/
+dist/
+build/
+.tmp/
+.tmp*/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.history/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Uploads/static generated at runtime
+upload/
+public/uploads/
+
+# Database dumps (local only)
+dump_db.sql
+insert_users.sql
+
+# Misc caches
+.cache/
+.parcel-cache/
+.next/
+.svelte-kit/

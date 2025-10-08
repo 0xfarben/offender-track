@@ -5,8 +5,8 @@ const path = require("path");
 const cookieParser = require("cookie-parser");
 const dotenv = require("dotenv");
 const app = express();
-const fileUpload = require("express-fileupload")
-const port = 10;
+const fileUpload = require("express-fileupload");
+const port = 3000;
 
 app.use(fileUpload());
 
@@ -17,6 +17,7 @@ dotenv.config({
 // MySQL Database Configuration
 const db = mysql.createConnection({
   host: process.env.DATABASE_HOST,
+  port: process.env.DATABASE_PORT,
   user: process.env.DATABASE_USER,
   password: process.env.DATABASE_PASSWORD,
   database: process.env.DATABASE
